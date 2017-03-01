@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<TITLE> Save the Earth </TITLE>
+	<STYLE type='text/css'>
+	#TITLE1
+		{
+		position: absolute;
+		font-family: impact;
+		font-size: 300px;
+		z-index: 100;
+		top: 23%;
+		left: 12%
+
+	}
+	
+	#MENU
+	{
+		position:fixed;
+		width: 100%;
+		height: 10%;
+		background-color: white;
+		top:0px;
+		left:0px;
+		z-index: 1000;
+		opacity: 0.9;
+			
+	}
+	#MENUword
+	{
+		position: fixed;
+		width: 100%;
+		height: 10%;
+		z-index: 1100;
+		top:0px;
+		left: 0px;
+
+	}
+	#bg
+	{
+		width:100%;
+		position: absolute;
+		left:0px;
+		top:0px;
+		z-index: 10;
+		opacity:0;
+		-webkit-transition:  top 2s ease, opacity 2s ease;
+
+		-moz-transition: top 2s ease, opacity 2s ease;
+
+		-o-transition: top 2s ease, opacity 2s ease;
+
+		transition: top 2s ease, opacity 2s ease
+
+	}
+	#bw
+	{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 9;
+		opacity: 1;
+
+	}
+
+	#link
+	{
+		font-family: 'avenir';
+		text-decoration: none;
+	}
+	#link:hover
+	{
+		color: #0097FF;
+	}
+	
+	</STYLE>
+</HEAD>
+<BODY link='black' vlink='black'>
+<TABLE id='MENUword'>
+	<TR>
+		<TD width='20%' align='center'><FONT id='link'><A  id='link' href='index.html'>HOME</a></TD>
+		<TD width='20%' align='center'><FONT id='link'><A id='link' href='FINALsubpage1.html'>What Are PFCs</TD>
+		<TD width='20%' align='center'><FONT id='link'><A id='link' href='Q&A.html'> Q&A</TD>
+		<TD width='20%' align='center'><FONT id='link'><a id='link' href='http://www.greenpeace.org/usa/'>About GreenPeace</a></TD>
+		<TD width='20%' align='center'><FONT id='link'><A id='link' href='whatshouldwedo.html'>What Should We Do</TD>
+	</TR>
+</TABLE>
+<IMG src='pilato_coverbw.jpg' id='bw' >
+<DIV id='MENU'></DIV>
+<IMG src='pilato_cover.jpg' id='bg' onmouseover="document.getElementById('bg').style.opacity='1';" >
+<FONT id='TITLE1' color='FFFFFF'>D E T O X</FONT>
+</BODY>
